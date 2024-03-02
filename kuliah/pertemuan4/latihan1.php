@@ -12,8 +12,8 @@ echo "<br>";
 echo time() + 86400;
 echo "<br>";
 
-// echo time("l", time() + 60 * 60 * 24 * 365);
-// echo "<br>";
+echo time("l", time() + 60 * 60 * 24 * 365);
+echo "<br>";
 
 echo mktime(0,0,0,2,27,2024);
 echo "<br>";
