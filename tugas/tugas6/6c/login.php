@@ -30,6 +30,7 @@ if (isset($_POST["submit"])) {
             height: 80vh;
             width: 80vh;
             color: black;
+            margin: auto;
         }
         
         .content {
@@ -41,12 +42,12 @@ if (isset($_POST["submit"])) {
             background-color: green;
             width: 80%;
             height: 80%;
-            font-size: 1.5rem;
-            font-family: Arial, Helvetica, sans-serif;
-            border-radius: 10px;
+            font-size: 1rem;
+            font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+            border-radius: 50px;
         }
 
-        h1 {
+        h2 {
             color: black;
         }
 
@@ -55,15 +56,14 @@ if (isset($_POST["submit"])) {
             border: 1px solid black;
             width: 220px;
             height: 25px;
-            border-radius: 5px;
+            border-radius: 50px;
         }
 
         button {
             margin-top: 15px;
             cursor: pointer;
-            font-size: 1.2rem;
             background-color: lightblue;
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 5px;
             border: 2px solid black;
         }
@@ -90,7 +90,7 @@ if (isset($_POST["submit"])) {
         <div class="profile"></div>
                 <h2><i>Login Admin</i></h2>
             <?php if (isset($error)) : ?>
-                <p>username / password anda salah <?= $_POST["username"]; ?></p>
+               <p>username / password salah</p></h4>
             <?php endif; ?>
             <form action="" method="post">
                 <label for="username">Username :</label>

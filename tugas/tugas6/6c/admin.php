@@ -17,6 +17,7 @@
             height: 50vh;
             width: 50%;
             color: white;
+            margin: auto;
         }
         
         .content {
@@ -29,15 +30,15 @@
             background-color: green;
             width: 80%;
             height: 80%;
-            font-size: 1.5rem;
-            font-family: Arial, Helvetica, sans-serif;
-            border-radius: 20px;
+            font-size: 1rem;
+            font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+            border-radius: 50px;
         }
 
         button {
-            font-size: 1.2rem;
+            font-size: 1rem;
             background-color: lightblue;
-            border-radius: 10px;
+            border-radius: 50px;
             padding: 5px;
             border: 2px solid black;
             width: 100px;
